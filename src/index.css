@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkturquoise;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.footer {
+  color: firebrick;
+}
+.Myinfo {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(189, 61, 11);
+}
+h1{
+  text-align: center; 
+}
+
+.todo-list{
+  align-items: center;
+  padding-top: 20px;
+  font-size: 30px;
+  border-radius: 30px;
+  width: 50%;
+  margin : auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #efefef;
+}
+.todo-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding : 30px 20px 0px;
+  font-size: 15px;
+  width: 70%;
+  color : #333333;
+  border-bottom: 1px solid #efefef;
+
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+  }
+/*student num*/
+h2 {
+  text-align: center;
+}  
