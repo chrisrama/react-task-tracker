@@ -1,21 +1,22 @@
 import React from 'react';
-import vschoolProducts from './components/vschoolProducts';
-import StudentList from './components/StudentList';
 import './index.css';
+import TodoItem from './components/TodoItem'
+
 
 function App() {
-  const info = vschoolProducts.map(details => {
-    return (<StudentList key={details.id} List={details}/>);
-    });
-
   return (
        <div>
-        {info}
+       <TodoItem />
        </div>
   );
 }
 
 export default App;
+
+
+//const info = vschoolProducts.map(details => {
+  //  return (<StudentList key={details.id} List={details}/>);
+    //});
 
 //<div className="todo-list">
     
