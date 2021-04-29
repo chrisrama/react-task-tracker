@@ -7,9 +7,12 @@ class TodoItem extends React.Component{
     this.state = {
       Todos: TodoList
     }
-  }
+       this.handleclick = this.handleclick.bind(this);
 
+  }
+  handleclick (id) {
   
+  }
 
   render(){
      const Todolist = this.state.Todos.map((Todo)=> {
@@ -19,7 +22,7 @@ class TodoItem extends React.Component{
           type="checkbox" 
           key={Todo.id} 
           checked={Todo.completed} 
-          onChange={() => {alert('Changes')}}
+          onChange={() => {alert('Boutton was Changes')}}
          />
           <h4 key={Todo.id} > {Todo.task}</h4>
         </div>  

@@ -6,6 +6,7 @@ class Stated extends React.Component {
       constructor(){
           super()
           this.state = {
+              name : "Christian",
               isLoggedIn : false
           }
       }
@@ -13,7 +14,8 @@ class Stated extends React.Component {
     render() {
      return (
          <div>
-         <h1>Your currently log ({this.state.isLoggedIn === true ? `in` :  `out`}) </h1>
+         <h1>{this.state.name}</h1>
+         <h2>Your currently log ({this.state.isLoggedIn === true ? `in` :  `out`}) </h2>
          </div>
      )
     }

@@ -1,12 +1,12 @@
 import React from 'react';
 import './index.css';
-import TodoItem from './components/TodoItem'
+import Timer from './components/Timer'
 
 
 function App() {
   return (
        <div>
-       <TodoItem />
+       <Timer />
        </div>
   );
 }
